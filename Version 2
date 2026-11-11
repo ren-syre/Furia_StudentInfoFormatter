@@ -10,6 +10,7 @@ print()
 
 # Prints the string formatted version of the inputs
 
+print("Formatted Output: ")
 print("Name: ", user_text.title(), user_text2.title())
 print("Name code: ", name_code.upper())
 print("Section: ", user_text3.upper())
