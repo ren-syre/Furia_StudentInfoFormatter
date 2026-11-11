@@ -1,0 +1,17 @@
+# Asks the user for their input
+
+user_text = input("Enter first name: ")
+user_text2 = input("Enter last name: ")
+user_text3 = input("Enter section: ")
+user_text4 = input("Enter favorite subject: ")
+name_code = user_text + " " + user_text2
+
+print()
+
+# Prints the unformatted version with no string formulas
+
+print("Name: ", user_text)
+print("Name code: ", name_code)
+print("Section: ", user_text3)
+print("Favorite subject: ", user_text4.)
+print("Character Count: ", name_code)
