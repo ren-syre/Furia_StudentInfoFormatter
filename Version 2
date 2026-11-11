@@ -9,6 +9,7 @@ name_code = user_text + " " + user_text2
 print()
 
 # Prints the string formatted version of the inputs
+
 print("Name: ", user_text.title(), user_text2.title())
 print("Name code: ", name_code.upper())
 print("Section: ", user_text3.upper())
