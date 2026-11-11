@@ -1,0 +1,16 @@
+# Asks for the user's inputs
+
+user_text = input("Enter first name: ")
+user_text2 = input("Enter last name: ")
+user_text3 = input("Enter section: ")
+user_text4 = input("Enter favorite subject: ")
+name_code = user_text + " " + user_text2
+
+print()
+
+# Prints the string formatted version of the inputs
+print("Name: ", user_text.title(), user_text2.title())
+print("Name code: ", name_code.upper())
+print("Section: ", user_text3.upper())
+print("Favorite subject: ", user_text4.title())
+print("Character Count: ", len(name_code))
